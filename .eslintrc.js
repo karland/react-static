@@ -1,3 +1,4 @@
 module.exports = {
-  extends: 'react-tools',
+  extends: ["react-app", "plugin:jsx-a11y/recommended"],
+  plugins: ["jsx-a11y"]
 }
